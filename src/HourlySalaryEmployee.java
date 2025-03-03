@@ -63,7 +63,7 @@ public class HourlySalaryEmployee extends StaffMember{
 
         System.out.println("   ID: " + id);
 
-        // Validate Name (Only letters and spaces)
+        // Validate Name
         while (true) {
             System.out.print("=> Enter Name: ");
             name = sc.nextLine();
@@ -104,7 +104,7 @@ public class HourlySalaryEmployee extends StaffMember{
                 rate = sc.nextDouble();
                 if (rate >= 0) break;
             } else {
-                sc.next(); // Clear invalid input
+                sc.next();
             }
             System.out.println("Invalid rate! Please enter a valid positive number." );
         }

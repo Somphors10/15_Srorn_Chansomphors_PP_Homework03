@@ -101,7 +101,7 @@ public class SalariedEmployee extends StaffMember{
             }
             System.out.println( "Invalid bonus! Please enter a valid positive number." );
         }
-        sc.nextLine(); // Clear buffer
+        sc.nextLine();
 
         // Add to the list
         employees.add(new SalariedEmployee(id, name, address, salary, bonus));

@@ -297,7 +297,6 @@ public class DisplayMethodAll {
     }
 
 
-
     // Remove Data
     public void RemoveEmployee() {
         System.out.println("=".repeat(20) + "* Remove Employee *" + "=".repeat(20));
